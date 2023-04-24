@@ -1,0 +1,55 @@
+#Outerbox{
+    border: 5px solid gray;
+    /* padding: 50px; */
+    border-color: blueviolet;
+    background-image: radial-gradient(#EBC7E6, #BFACE2, #645CBB);
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-radius: 25px;
+    width: 500px;
+
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1; */
+
+    /* position: absolute;
+    top: 0.5em;
+    /* left: 0; */
+    /* right: 0;
+    width: 50%;
+    margin: 0; */ 
+
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* text-align: center; */
+}
+
+/* #grad {
+    background-image: linear-gradient(red, yellow, green);
+  } */
+
+
+/* #Name, #Coursename{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    border: 5px solid gray;
+    padding: 20px;
+} */
+
+/* div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  } */

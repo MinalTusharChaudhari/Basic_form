@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div   id="Outerbox">
+
+        <h2>Basic Form</h2>
+    <form action="backend.php">
+        <!-- <label for="name"> <b>Name: </b></label> -->
+        <div id="Name">
+            <b>Name: </b>  <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div id="Coursename">
+            <!-- <b>Course Name: </b> <input type="text" name="myRole"> -->
+
+            <label for="Course Name"> <b>Course Name: </b> </label>
+            <select name="myCourseName" id="Course Name">
+                <option value="B.Tech CS">B.Tech CS</option>
+
+                <option value="B.Tech IT" selected>B.Tech IT</option>
+
+                <option value="B.Tech AIDS" selected>B.Tech AIDS</option>
+
+                <option value="B.Tech ENTC" selected>B.Tech ENTC</option>
+
+                <option value="B.Tech CIVIL" selected>B.Tech CIVIL</option>
+
+                <option value="B.Tech MECHANICAL" selected>B.Tech MECHANICAL</option>
+
+
+            </select>
+
+
+
+        </div>
+        <br>
+        <div>
+            <b>Email: </b> <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            <b>Date: </b> <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            <b>State: </b> <input type="text" name="myState">
+        </div>
+        <br>
+        <div>
+            <b>Are you eligible?: </b> <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            <b>Gender: </b>  
+            <br>
+            <input type="radio" name="myGender"> Male
+            <br>
+            <input type="radio" name="myGender"> Female 
+            <br>
+            <input type="radio" name="myGender"> Other
+        </div>
+
+        <br>
+        <div>
+            <b>Write about yourself: </b> <br><textarea name="myText" cols="40" rows="10"></textarea>
+        </div>
+
+        
+        <!-- <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div> -->
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+
+
+
+    </div>
+    
+    
+</body>
+
+</html>
+
